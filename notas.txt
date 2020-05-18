@@ -1,0 +1,50 @@
+http://git-school.github.io/visualizing-git/
+https://devhints.io/git-log
+
+https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Recording-Changes-to-the-Repository
+
+https://devhints.io/git-log
+
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd "code --wait $MERGED"
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
+
+git init --bare
+
+git remote add local "/c/Users/vrabay/Documents/Alura/Formação DevOps/CursoGit/gitserver"
+
+git remote -v
+
+git commit
+
+git status
+
+git branch <branch> <sourcebranch>  //  git checkout -b <branch> // git checkout -b <branch> <sourcebranch>
+
+git revert <commit>
+
+git cherry-pick <commit>
+
+git blame <nomearquivo>
+
+git merge
+git mergetool --tool-help
+https://www.rosipov.com/blog/use-vimdiff-as-git-mergetool/
+https://git-scm.com/docs/git-mergetool
+
+git log
+	--graph
+	--oneline
+	
+git bisect
+	bad <commit>
+	good <commit>
+	reset
+	
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
+GIT HOOKS	
+	- .git/hooks
+	- scrips shell para eventos

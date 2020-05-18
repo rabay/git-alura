@@ -1,0 +1,3 @@
+#!/bin/bash
+
+git --git-dir="/c/Users/vrabay/Documents/Alura/Formação DevOps/CursoGit/gitserver" --work-tree="/c/Users/vrabay/Documents/Alura/Formação DevOps/CursoGit/web" checkout -f
